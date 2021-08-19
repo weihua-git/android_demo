@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.helloworldnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HelloWorldNew">
+        <activity
+            android:name=".WebViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerView.PuRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerView.GridRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerView.HoRecyclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerView.LinearRecuclerViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".recyclerView.RecyclerViewActivity"
+            android:exported="true" />
+        <activity android:name=".gridview.GridViewActivity" />
+        <activity
+            android:name=".listview.ListViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ImageViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RadioButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TextViewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- 默认启动 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
